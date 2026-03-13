@@ -2,6 +2,9 @@
 
 Este repositório contém o código do meu portfólio pessoal de desenvolvedor.
 
+## 🔗 Acesse o site
+https://erikxdev.online
+
 ## 📌 Sobre o projeto
 O objetivo deste projeto é apresentar meus trabalhos, habilidades e formas de contato como desenvolvedor.
 
