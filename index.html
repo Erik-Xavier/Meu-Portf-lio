@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+
+    <title>Erik Dev | Portfólio</title>
+    
+</head>
+<body>
+
+    <header>
+
+        <div class="particulas"></div>
+        
+            <nav class="navegacao"><!--nav é um menu de navegação-->
+
+                    <ul class="menu">
+
+                        <li>
+                            <a href="#inicio" class="menu-link">Início</a><!--href é a referencia, quando a pessoa clica vai sser direcionada pro "inicio"-->
+                        </li>
+                        <li>
+                            <a href="#sobre" class="menu-link">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#hab" class="menu-link">Habilidades</a>
+                        </li>
+                        <li>
+                            <a href="#projetos" class="menu-link">Projetos</a>
+                        </li>
+                        <li>
+                            <a href="#contatos"class="menu-link">Contato</a>
+                        </li>
+            
+
+                    </ul>
+                    
+            </nav>
+    </header>
+
+   <section>
+
+    <main id="inicio" class="cabecalho">
+
+        <div class="hero-container">
+
+            <img src="./img/perfil.erik.jpeg" alt="Foto de Erik" class="foto-perfil">
+
+            <div class="hero-texto">
+
+                <h1>Erik Dev</h1>
+
+                <p class="cabecalho-sub-titulo">
+                    Desenvolvedor Freelancer | Front-End
+                </p>
+
+                <p class="hero-desc">
+                Crio sites modernos, rápidos e responsivos para empresas que querem crescer na internet.
+                </p>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/erikx.dev/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Erik-Xavier"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/erik-xavierr/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://wa.me/5551980166661"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+
+                <a href="#contatos" class="botao-form1">Peça seu orçamento</a>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</section>
+
+    <section id="sobre" class="sobre">
+
+            <h2 class="sobre-titulo">SOBRE MIM</h2>
+
+            <div class="sobre-caixa">
+
+                <p class="sobre-p">
+                Olá, meu nome é Erik Xavier e sou desenvolvedor focado na criação de sites modernos e funcionais. 
+                Tenho interesse em tecnologia e programação, buscando sempre evoluir e aprender novas ferramentas da área.
+                </p>
+                <br>
+                <p class="sobre-p">
+                Trabalho com HTML, CSS, JavaScript e WordPress, desenvolvendo sites rápidos, responsivos e com design 
+                voltado para a melhor experiência do usuário.
+                </p>
+                <br>
+                <p class="sobre-p">
+                Meu objetivo é ajudar empresas e profissionais a terem uma presença profissional na internet, 
+                criando sites que transmitam confiança e qualidade.
+                </p>
+
+            </div>
+
+    </section>
+
+    <section id="hab" class="habilidades">
+
+        <h2 class="hab-titulo">HABILIDADES</h2>
+
+        <div class="hab-caixa">
+
+            <div class="hab-card">
+                <img src="./img/htmlsemfundo-erik.webp" alt="hab1" class="hab-img">
+            </div>
+
+             <div class="hab-card">
+                <img src="./img/css-erik.webp" alt="hab1" class="hab-img">
+            </div>
+
+             <div class="hab-card">
+                <img src="./img/javascript-erik.webp" alt="hab1" class="hab-img">
+            </div>
+
+             <div class="hab-card">
+                <img src="./img/wordpress-erik.webp" alt="hab1" class="hab-img">
+            </div>
+            
+
+        </div>
+
+    </section>
+
+   <section id="projetos" class="projetos">
+
+    <h2 class="projetos-titulo">MEUS PROJETOS</h2>
+
+    <div class="projetos-caixa">
+
+        <div class="projetos-card">
+            <img src="./img/portfolio-erik.jpg" alt="projeto1" class="projetos-img">
+
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Empresa de Esquadrias</h3>
+                <p class="p-projetos">
+                    Um site institucional com animações e design responsivo para uma empresa de Esquadrias de PVC, Alumínio e Madeira.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="projetos-card">
+            <img src="./img/embreve.jpeg" alt="projeto2" class="projetos-img">
+
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Projeto em breve</h3>
+                <p class="p-projetos">
+                    Novo projeto sendo desenvolvido.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="projetos-card">
+            <img src="./img/embreve.jpeg" alt="projeto3" class="projetos-img">
+
+            <div class="caixa-textos-projeto">
+                <h3 class="info-projetos">Projeto em breve</h3>
+                <p class="p-projetos">
+                    Novo projeto sendo desenvolvido.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+    <section id="contatos" class="contatos">
+    
+        <h2 class="contatos-titulo">ENTRE EM CONTATO</h2>
+
+        <form class="form-contato" id="form" onsubmit="enviarWhats(event)">
+
+            <div class="grupo-form">
+    
+                <input placeholder="Nome" class="nome-form" id="nome">
+
+            </div>
+
+            <div class="grupo-form">
+
+                <textarea class="nome-form" placeholder="Digite sua Mensagem" rows="6" id="mensg"></textarea> <!--rows são as linhas to textarea-->
+
+            </div>
+            
+            <button type="submit" class="botao-form">Enviar WhatsApp</button>
+
+        </form>
+
+    </section>
+
+
+    <script>
+
+        function enviarWhats(event) {
+        event.preventDefault()/*esse cod vai evitar que a tela fique carregando toda vez que abrir outra tela*/
+
+            const nome = document.getElementById('nome').value;;
+            const mensg = document.getElementById('mensg').value;;
+            const telefone = '5551980166661';
+
+            const texto = `Olá, meu nome é ${nome}. ${mensg}`;
+            const msgFormatada = encodeURIComponent(texto);/*aqui ele formatda os espaços pq a url nao aceita espaços*/
+
+            const url = `https://wa.me/${telefone}?text=${msgFormatada}`; /*aqui é a url criada*/
+
+            window.open(url, '_blank');
+        }
+
+    </script>
+
+     <footer class="footer">
+
+        <div class="social-icons">
+
+            <a href="https://www.instagram.com/erikx.dev/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/Erik-Xavier"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/erik-xavierr/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://wa.me/5551980166661"><i class="fa-brands fa-whatsapp"></i></a>
+
+        </div>
+
+        <p class="email">erikdevsap@.com</p>
+
+        <p class="copy">© 2026 | Erik Dev</p>
+
+     </footer>
+
+</body>
+</html>
